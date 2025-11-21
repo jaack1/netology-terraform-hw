@@ -46,6 +46,7 @@
 https://docs.comcloud.xyz/providers/kreuzwerker/docker/latest/docs/resources/image#keep_locally-1
 
 2-0
+
 Код по задаче 2
 https://github.com/jaack1/netology-terraform-hw/tree/main/01/src2
 

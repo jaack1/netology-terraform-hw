@@ -48,6 +48,7 @@ https://docs.comcloud.xyz/providers/kreuzwerker/docker/latest/docs/resources/ima
 2-0
 
 Код по задаче 2
+
 https://github.com/jaack1/netology-terraform-hw/tree/main/01/src2
 
 ![Image alt](https://github.com/jaack1/netology-terraform-hw/blob/main/01/screenshots/img2-0.png)

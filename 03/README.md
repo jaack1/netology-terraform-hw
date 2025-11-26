@@ -17,7 +17,6 @@
 
 ![Image alt](https://github.com/jaack1/netology-terraform-hw/blob/main/03/screenshots/img2-4.png)
 
-Не разобрался как использовать параметр "disk_volume", это размер диска или номер какого-то тома?
 
 Задание 3
 

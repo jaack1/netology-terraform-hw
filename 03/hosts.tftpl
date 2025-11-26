@@ -1,0 +1,12 @@
+%{~ for key, value in servers ~}
+[${ key }]${"\n"}
+%{~ if can(tolist(value)) ||  can(tomap(value)) ~}
+%{~ for i in value ~}
+${i["name"]}   ansible_host=${i["network_interface"][0]["nat_ip_address"]} fqdn=${i["fqdn"]}${"\n"}
+%{~ endfor ~}
+%{~ endif ~}
+%{~ if !can(tolist(value)) &&  !can(tomap(value)) ~}
+${value["name"]}   ansible_host=${value["network_interface"][0]["nat_ip_address"]} fqdn=${value["fqdn"]}${"\n"}
+%{~ endif ~}
+${"\n"}
+%{~ endfor ~}
